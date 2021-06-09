@@ -35,7 +35,7 @@ class SwipingCards extends StatelessWidget {
           var primaryCardLeft = safeWidth - widthOfPrimaryCard;
           var horizontalInset = primaryCardLeft / 2;
 
-          List<Widget> cardList = List();
+          List<Widget> cardList = [];
 
           for (var i = 0; i < swipingCardImages.length; i++) {
             var delta = i - currentPage;
